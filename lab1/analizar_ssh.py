@@ -31,12 +31,9 @@ print()
 ips_sospechosas = []
 
 for ip, intentos in contador_ips.items():
-
     alerta = intentos > 50
-
     if alerta:
         print(f"[ALERTA] IP: {ip} - {intentos} intentos fallidos - Posible ataque de fuerza bruta")
-
     ips_sospechosas.append({
         "ip": ip,
         "intentos": intentos,
@@ -55,6 +52,5 @@ reporte = {
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as archivo_json:
     json.dump(reporte, archivo_json, indent=4)
-
 print()
 print(f"Reporte generado: {OUTPUT_FILE}")
