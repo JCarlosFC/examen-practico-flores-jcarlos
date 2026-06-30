@@ -17,11 +17,13 @@ Este repositorio contiene el desarrollo del examen práctico del curso de Seguri
 
 ---
 
-# Estructura del proyecto
+## Estructura del proyecto
 
+```text
 examen-practico-flores-jcarlos/
 │
 ├── README.md
+│
 ├── lab1/
 │   ├── access.log
 │   ├── auth.log
@@ -30,21 +32,39 @@ examen-practico-flores-jcarlos/
 │   ├── visualizar.py
 │   ├── reporte_ssh.json
 │   ├── reporte_web.json
-│   └── graficas/
-|   └── evidencias/
+│   ├── graficas/
+│   │   ├── top10_ssh.png
+│   │   ├── timeline_http.png
+│   │   └── heatmap_http.png
+│   └── evidencias/
+│       ├── SCR-1.1a_ssh_ejecucion.png
+│       ├── SCR-1.1b_ssh_json.png
+│       ├── SCR-1.2a_web_ejecucion.png
+│       └── SCR-1.2b_web_json.png
 │
 ├── lab2/
 │   ├── local_rules_ssh.xml
 │   ├── local_rules_exfil.xml
-│   └── simular_bruteforce.sh
-|   └── evidencias/
+│   ├── simular_bruteforce.sh
+│   └── evidencias/
+│       ├── SCR2.1_regla_ssh.png
+│       ├── SCR2.2_regla_exfil.png
+│       └── SCR2.3_alerta_wazuh.png
 │
 ├── lab3/
-│   ├── network_traffic.csv
-│   ├── deteccion_anomalias.ipynb
-│   ├── modelo_anomalias.pkl
-│   └── predecir.py
-|   └── evidencias/
+    ├── network_traffic.csv
+    ├── deteccion_anomalias.ipynb
+    ├── modelo_anomalias.pkl
+    ├── predecir.py
+    └── evidencias/
+        ├── SCR3.1_eda.png
+        ├── SCR3.2_metricas.png
+        ├── SCR3.3_umbral_f1.png
+        └── SCR3.4_predecir.png
+
+
+```
+
 
 ```
 
