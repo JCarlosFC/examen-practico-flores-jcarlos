@@ -1,0 +1,923 @@
+** Alert 1782850634.0: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:17:14 Wazuh-SIEM->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1782850676.246: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:17:56 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:17:55 Wazuh-SIEM sudo[3147]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+tty: tty1
+pwd: /home/carlos
+command: /usr/bin/systemctl status wazuh-manager
+
+** Alert 1782850676.789: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:17:56 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:17:55 Wazuh-SIEM sudo[3147]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782850676.1216: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:17:56 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:17:55 Wazuh-SIEM sudo[3147]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782850730.1584: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:18:50 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:18:49 Wazuh-SIEM sudo[4226]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-indexer
+tty: tty1
+pwd: /home/carlos
+command: /usr/bin/systemctl status wazuh-indexer
+
+** Alert 1782850730.2128: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:18:50 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:18:49 Wazuh-SIEM sudo[4226]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782850732.2556: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:18:52 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:18:51 Wazuh-SIEM sudo[4226]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782850754.2924: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:19:14 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:19:13 Wazuh-SIEM sudo[4240]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-dashboard
+tty: tty1
+pwd: /home/carlos
+command: /usr/bin/systemctl status wazuh-dashboard
+
+** Alert 1782850754.3472: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:19:14 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:19:13 Wazuh-SIEM sudo[4240]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782850756.3900: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:19:16 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:19:14 Wazuh-SIEM sudo[4240]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782851636.4268: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:33:56 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:33:55 Wazuh-SIEM sudo[4784]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+tty: tty1
+pwd: /home/carlos
+command: /usr/bin/systemctl status ssh
+
+** Alert 1782851636.4792: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:33:56 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:33:55 Wazuh-SIEM sudo[4784]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782851636.5160: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:33:56 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:33:55 Wazuh-SIEM sudo[4784]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782851666.5588: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:34:26 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:34:24 Wazuh-SIEM sudo[4790]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/ss -tlnp
+tty: tty1
+pwd: /home/carlos
+command: /usr/bin/ss -tlnp
+
+** Alert 1782851666.6088: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:34:26 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:34:24 Wazuh-SIEM sudo[4790]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782851666.6516: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:34:26 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:34:24 Wazuh-SIEM sudo[4790]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782851790.6884: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:36:30 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: carlos
+Jun 30 20:36:29 Wazuh-SIEM sshd[4810]: pam_unix(sshd:session): session opened for user carlos(uid=1000) by carlos(uid=0)
+uid: 0
+
+** Alert 1782851790.7313: - syslog,sshd,authentication_success,gdpr_IV_32.2,gpg13_7.1,gpg13_7.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.5,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:36:30 Wazuh-SIEM->journald
+Rule: 5715 (level 3) -> 'sshd: authentication success.'
+Src IP: 192.168.1.33
+Src Port: 51070
+User: carlos
+Jun 30 20:36:29 Wazuh-SIEM sshd[4810]: Accepted password for carlos from 192.168.1.33 port 51070 ssh2
+
+** Alert 1782851826.7757: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:37:06 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:37:05 Wazuh-SIEM sudo[4880]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/rules/local_rules_ssh.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/nano /var/ossec/etc/rules/local_rules_ssh.xml
+
+** Alert 1782851826.8333: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:37:06 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:37:05 Wazuh-SIEM sudo[4880]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782851850.8761: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:37:30 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:37:29 Wazuh-SIEM sudo[4880]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782851924.9129: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:38:44 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:38:43 Wazuh-SIEM sudo[4887]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/rules/local_rules_ssh.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/nano /var/ossec/etc/rules/local_rules_ssh.xml
+
+** Alert 1782851924.9705: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:38:44 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:38:43 Wazuh-SIEM sudo[4887]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782851992.10133: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:39:52 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:39:51 Wazuh-SIEM sudo[4887]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852096.10502: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:41:36 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:41:34 Wazuh-SIEM sudo[4908]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/rules/local_rules_exfil.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/nano /var/ossec/etc/rules/local_rules_exfil.xml
+
+** Alert 1782852096.11083: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:41:36 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:41:34 Wazuh-SIEM sudo[4908]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852102.11512: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:41:42 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:41:42 Wazuh-SIEM sudo[4908]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852106.11881: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:41:46 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:41:45 Wazuh-SIEM sudo[4911]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852106.12310: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:41:46 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:41:45 Wazuh-SIEM sudo[4911]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/nano /var/ossec/etc/rules/local_rules_exfil.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/nano /var/ossec/etc/rules/local_rules_exfil.xml
+
+** Alert 1782852174.12891: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:42:54 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:42:52 Wazuh-SIEM sudo[4911]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852264.13260: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:44:24 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:44:24 Wazuh-SIEM sudo[4924]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt update
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/apt update
+
+** Alert 1782852264.13767: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:44:24 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:44:24 Wazuh-SIEM sudo[4924]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852284.14196: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:44:44 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:44:43 Wazuh-SIEM sudo[4924]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852284.14565: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:44:44 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:44:43 Wazuh-SIEM sudo[5230]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/apt install -y libxml2-utils
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/apt install -y libxml2-utils
+
+** Alert 1782852284.15108: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:44:44 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:44:43 Wazuh-SIEM sudo[5230]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852288.15537: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:48 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2904 (level 7) -> 'Dpkg (Debian Package) half configured.'
+2026-06-30 20:44:48 status half-configured libxml2:amd64 2.9.14+dfsg-1.3ubuntu3.7
+dpkg_status: status half-configured
+package: libxml2
+arch: amd64
+version: 2.9.14+dfsg-1.3ubuntu3.7
+
+** Alert 1782852289.16039: - syslog,dpkg,pci_dss_10.6.1,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2901 (level 3) -> 'New dpkg (Debian Package) requested to install.'
+2026-06-30 20:44:48 install libxml2-utils:amd64 <none> 2.9.14+dfsg-1.3ubuntu3.8
+dpkg_status: install
+package: libxml2-utils
+arch: amd64
+version: <none>
+
+** Alert 1782852289.16463: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2904 (level 7) -> 'Dpkg (Debian Package) half configured.'
+2026-06-30 20:44:48 status half-configured libxml2:amd64 2.9.14+dfsg-1.3ubuntu3.8
+dpkg_status: status half-configured
+package: libxml2
+arch: amd64
+version: 2.9.14+dfsg-1.3ubuntu3.8
+
+** Alert 1782852289.16965: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2902 (level 7) -> 'New dpkg (Debian Package) installed.'
+2026-06-30 20:44:48 status installed libxml2:amd64 2.9.14+dfsg-1.3ubuntu3.8
+dpkg_status: status installed
+package: libxml2
+arch: amd64
+version: 2.9.14+dfsg-1.3ubuntu3.8
+
+** Alert 1782852289.17453: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2904 (level 7) -> 'Dpkg (Debian Package) half configured.'
+2026-06-30 20:44:48 status half-configured libxml2-utils:amd64 2.9.14+dfsg-1.3ubuntu3.8
+dpkg_status: status half-configured
+package: libxml2-utils
+arch: amd64
+version: 2.9.14+dfsg-1.3ubuntu3.8
+
+** Alert 1782852289.17967: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2902 (level 7) -> 'New dpkg (Debian Package) installed.'
+2026-06-30 20:44:48 status installed libxml2-utils:amd64 2.9.14+dfsg-1.3ubuntu3.8
+dpkg_status: status installed
+package: libxml2-utils
+arch: amd64
+version: 2.9.14+dfsg-1.3ubuntu3.8
+
+** Alert 1782852289.18467: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:49 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2904 (level 7) -> 'Dpkg (Debian Package) half configured.'
+2026-06-30 20:44:48 status half-configured man-db:amd64 2.12.0-4build2
+dpkg_status: status half-configured
+package: man-db
+arch: amd64
+version: 2.12.0-4build2
+
+** Alert 1782852296.18947: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:56 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2902 (level 7) -> 'New dpkg (Debian Package) installed.'
+2026-06-30 20:44:55 status installed man-db:amd64 2.12.0-4build2
+dpkg_status: status installed
+package: man-db
+arch: amd64
+version: 2.12.0-4build2
+
+** Alert 1782852296.19413: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:56 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2904 (level 7) -> 'Dpkg (Debian Package) half configured.'
+2026-06-30 20:44:55 status half-configured libc-bin:amd64 2.39-0ubuntu8.7
+dpkg_status: status half-configured
+package: libc-bin
+arch: amd64
+version: 2.39-0ubuntu8.7
+
+** Alert 1782852296.19899: - syslog,dpkg,config_changed,pci_dss_10.6.1,pci_dss_10.2.7,gpg13_4.10,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,nist_800_53_AU.14,tsc_CC7.2,tsc_CC7.3,tsc_CC6.8,tsc_CC8.1,
+2026 Jun 30 20:44:56 Wazuh-SIEM->/var/log/dpkg.log
+Rule: 2902 (level 7) -> 'New dpkg (Debian Package) installed.'
+2026-06-30 20:44:55 status installed libc-bin:amd64 2.39-0ubuntu8.7
+dpkg_status: status installed
+package: libc-bin
+arch: amd64
+version: 2.39-0ubuntu8.7
+
+** Alert 1782852300.20371: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:45:00 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:45:00 Wazuh-SIEM sudo[5230]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852354.20740: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:45:54 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:45:53 Wazuh-SIEM sudo[5413]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/xmllint --noout /var/ossec/etc/rules/local_rules_ssh.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/xmllint --noout /var/ossec/etc/rules/local_rules_ssh.xml
+
+** Alert 1782852354.21339: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:45:54 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:45:53 Wazuh-SIEM sudo[5413]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852354.21708: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:45:54 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:45:53 Wazuh-SIEM sudo[5413]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852384.22137: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:46:24 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:46:22 Wazuh-SIEM sudo[5416]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/xmllint --noout /var/ossec/etc/rules/local_rules_exfil.xml
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/xmllint --noout /var/ossec/etc/rules/local_rules_exfil.xml
+
+** Alert 1782852384.22740: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:46:24 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:46:22 Wazuh-SIEM sudo[5416]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852384.23169: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:46:24 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:46:22 Wazuh-SIEM sudo[5416]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852561.23538: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:49:21 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:49:19 Wazuh-SIEM sudo[5468]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782852566.23907: - ossec,pci_dss_10.6.1,gpg13_10.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:49:26 Wazuh-SIEM->wazuh-monitord
+Rule: 502 (level 3) -> 'Wazuh server started.'
+ossec: Manager started.
+
+** Alert 1782852581.24157: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:49:41 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 20:49:39 Wazuh-SIEM sudo[7529]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782852581.24586: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:49:41 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 20:49:39 Wazuh-SIEM sudo[7529]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/systemctl status wazuh-manager
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/systemctl status wazuh-manager
+
+** Alert 1782852583.25133: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 20:49:43 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 20:49:41 Wazuh-SIEM sudo[7529]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782853267.25502: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:01:07 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: carlos
+Jun 30 21:01:06 Wazuh-SIEM sshd[8835]: pam_unix(sshd:session): session opened for user carlos(uid=1000) by carlos(uid=0)
+uid: 0
+
+** Alert 1782853267.25932: - syslog,sshd,authentication_success,gdpr_IV_32.2,gpg13_7.1,gpg13_7.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.5,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:01:07 Wazuh-SIEM->journald
+Rule: 5715 (level 3) -> 'sshd: authentication success.'
+Src IP: 192.168.1.33
+Src Port: 65444
+User: carlos
+Jun 30 21:01:06 Wazuh-SIEM sshd[8835]: Accepted password for carlos from 192.168.1.33 port 65444 ssh2
+
+** Alert 1782853269.26377: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:01:09 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: carlos
+Jun 30 21:01:07 Wazuh-SIEM sshd[8835]: pam_unix(sshd:session): session closed for user carlos
+
+** Alert 1782853345.26750: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:25 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:02:24 Wazuh-SIEM sudo[8910]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782853345.27179: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 21645
+User: admin_db
+Jun 30 21:02:24 Wazuh-SIEM sshd[8917]: Failed password for admin_db from 45.33.32.156 port 21645 ssh2
+
+** Alert 1782853345.27654: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 5930
+User: admin
+Jun 30 21:02:24 Wazuh-SIEM sshd[8919]: Failed password for admin from 45.33.32.156 port 5930 ssh2
+
+** Alert 1782853345.28121: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:25 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:02:23 Wazuh-SIEM sudo[8910]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=./simular_bruteforce.sh
+tty: pts/0
+pwd: /home/carlos
+command: ./simular_bruteforce.sh
+
+** Alert 1782853345.28636: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 8686
+User: root
+Jun 30 21:02:24 Wazuh-SIEM sshd[8921]: Failed password for root from 45.33.32.156 port 8686 ssh2
+
+** Alert 1782853347.29101: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 22570
+User: root
+Jun 30 21:02:25 Wazuh-SIEM sshd[8923]: Failed password for root from 45.33.32.156 port 22570 ssh2
+
+** Alert 1782853347.29568: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 9721
+User: admin
+Jun 30 21:02:26 Wazuh-SIEM sshd[8927]: Failed password for admin from 45.33.32.156 port 9721 ssh2
+
+** Alert 1782853347.30035: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 17044
+User: ubuntu
+Jun 30 21:02:25 Wazuh-SIEM sshd[8925]: Failed password for ubuntu from 45.33.32.156 port 17044 ssh2
+
+** Alert 1782853347.30506: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 7681
+User: admin_db
+Jun 30 21:02:26 Wazuh-SIEM sshd[8929]: Failed password for admin_db from 45.33.32.156 port 7681 ssh2
+
+** Alert 1782853347.30979: - syslog,sshd,authentication_failures,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_SI.4,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_11.4,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:27 Wazuh-SIEM->journald
+Rule: 5763 (level 10) -> 'sshd: brute force trying to get access to the system. Authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 1033
+User: root
+Jun 30 21:02:26 Wazuh-SIEM sshd[8931]: Failed password for root from 45.33.32.156 port 1033 ssh2
+Jun 30 21:02:26 Wazuh-SIEM sshd[8929]: Failed password for admin_db from 45.33.32.156 port 7681 ssh2
+Jun 30 21:02:25 Wazuh-SIEM sshd[8925]: Failed password for ubuntu from 45.33.32.156 port 17044 ssh2
+Jun 30 21:02:26 Wazuh-SIEM sshd[8927]: Failed password for admin from 45.33.32.156 port 9721 ssh2
+Jun 30 21:02:25 Wazuh-SIEM sshd[8923]: Failed password for root from 45.33.32.156 port 22570 ssh2
+Jun 30 21:02:24 Wazuh-SIEM sshd[8921]: Failed password for root from 45.33.32.156 port 8686 ssh2
+Jun 30 21:02:24 Wazuh-SIEM sshd[8919]: Failed password for admin from 45.33.32.156 port 5930 ssh2
+Jun 30 21:02:24 Wazuh-SIEM sshd[8917]: Failed password for admin_db from 45.33.32.156 port 21645 ssh2
+
+** Alert 1782853349.32209: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 11651
+User: ubuntu
+Jun 30 21:02:27 Wazuh-SIEM sshd[8933]: Failed password for ubuntu from 45.33.32.156 port 11651 ssh2
+
+** Alert 1782853349.32680: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 30826
+User: postgres
+Jun 30 21:02:27 Wazuh-SIEM sshd[8935]: Failed password for postgres from 45.33.32.156 port 30826 ssh2
+
+** Alert 1782853349.33155: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 23784
+User: deploy
+Jun 30 21:02:28 Wazuh-SIEM sshd[8937]: Failed password for deploy from 45.33.32.156 port 23784 ssh2
+
+** Alert 1782853349.33626: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 25188
+User: deploy
+Jun 30 21:02:28 Wazuh-SIEM sshd[8939]: Failed password for deploy from 45.33.32.156 port 25188 ssh2
+
+** Alert 1782853349.34097: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 33528
+User: admin
+Jun 30 21:02:28 Wazuh-SIEM sshd[8941]: Failed password for admin from 45.33.32.156 port 33528 ssh2
+
+** Alert 1782853351.34566: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:31 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 31543
+User: deploy
+Jun 30 21:02:29 Wazuh-SIEM sshd[8943]: Failed password for deploy from 45.33.32.156 port 31543 ssh2
+
+** Alert 1782853351.35037: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:31 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 22944
+User: postgres
+Jun 30 21:02:29 Wazuh-SIEM sshd[8945]: Failed password for postgres from 45.33.32.156 port 22944 ssh2
+
+** Alert 1782853351.35512: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:02:31 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:02:30 Wazuh-SIEM sudo[8910]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782853403.35881: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:03:23 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:03:22 Wazuh-SIEM sudo[8947]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/tail -f /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/tail -f /var/ossec/logs/alerts/alerts.log
+
+** Alert 1782853403.36450: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:03:23 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:03:22 Wazuh-SIEM sudo[8947]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782853455.36879: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:04:15 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:04:14 Wazuh-SIEM sudo[8947]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782853483.37248: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:04:43 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:04:42 Wazuh-SIEM sudo[8952]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/grep 45.33.32.156 /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/grep 45.33.32.156 /var/ossec/logs/alerts/alerts.log
+
+** Alert 1782853483.37837: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:04:43 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:04:42 Wazuh-SIEM sudo[8952]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782853483.38266: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:04:43 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:04:42 Wazuh-SIEM sudo[8952]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782853615.38635: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:06:55 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:06:53 Wazuh-SIEM sudo[8961]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/tail -f /var/ossec/logs/alerts/alerts.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/tail -f /var/ossec/logs/alerts/alerts.log
+
+** Alert 1782853615.39204: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:06:55 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:06:53 Wazuh-SIEM sudo[8961]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782853645.39633: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:07:23 Wazuh-SIEM sudo[8974]:   carlos : TTY=tty1 ; PWD=/home/carlos ; USER=root ; COMMAND=./simular_bruteforce.sh
+tty: tty1
+pwd: /home/carlos
+command: ./simular_bruteforce.sh
+
+** Alert 1782853645.40146: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:07:23 Wazuh-SIEM sudo[8974]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782853645.40575: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 6612
+User: admin_db
+Jun 30 21:07:23 Wazuh-SIEM sshd[8983]: Failed password for admin_db from 45.33.32.156 port 6612 ssh2
+
+** Alert 1782853645.41048: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 8218
+User: admin_db
+Jun 30 21:07:24 Wazuh-SIEM sshd[8987]: Failed password for admin_db from 45.33.32.156 port 8218 ssh2
+
+** Alert 1782853645.41521: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 15700
+User: admin_db
+Jun 30 21:07:24 Wazuh-SIEM sshd[8989]: Failed password for admin_db from 45.33.32.156 port 15700 ssh2
+
+** Alert 1782853645.41996: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 11300
+User: postgres
+Jun 30 21:07:23 Wazuh-SIEM sshd[8981]: Failed password for postgres from 45.33.32.156 port 11300 ssh2
+
+** Alert 1782853645.42471: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:25 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 13490
+User: admin_db
+Jun 30 21:07:25 Wazuh-SIEM sshd[8991]: Failed password for admin_db from 45.33.32.156 port 13490 ssh2
+
+** Alert 1782853647.42946: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 2424
+User: admin
+Jun 30 21:07:25 Wazuh-SIEM sshd[8993]: Failed password for admin from 45.33.32.156 port 2424 ssh2
+
+** Alert 1782853647.43413: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 14627
+User: ubuntu
+Jun 30 21:07:25 Wazuh-SIEM sshd[8995]: Failed password for ubuntu from 45.33.32.156 port 14627 ssh2
+
+** Alert 1782853647.43884: - syslog,sshd,authentication_failures,gdpr_IV_35.7.d,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_SI.4,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_11.4,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:27 Wazuh-SIEM->journald
+Rule: 5763 (level 10) -> 'sshd: brute force trying to get access to the system. Authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 17668
+User: root
+Jun 30 21:07:26 Wazuh-SIEM sshd[8997]: Failed password for root from 45.33.32.156 port 17668 ssh2
+Jun 30 21:07:25 Wazuh-SIEM sshd[8995]: Failed password for ubuntu from 45.33.32.156 port 14627 ssh2
+Jun 30 21:07:25 Wazuh-SIEM sshd[8993]: Failed password for admin from 45.33.32.156 port 2424 ssh2
+Jun 30 21:07:25 Wazuh-SIEM sshd[8991]: Failed password for admin_db from 45.33.32.156 port 13490 ssh2
+Jun 30 21:07:23 Wazuh-SIEM sshd[8981]: Failed password for postgres from 45.33.32.156 port 11300 ssh2
+Jun 30 21:07:24 Wazuh-SIEM sshd[8989]: Failed password for admin_db from 45.33.32.156 port 15700 ssh2
+Jun 30 21:07:24 Wazuh-SIEM sshd[8987]: Failed password for admin_db from 45.33.32.156 port 8218 ssh2
+Jun 30 21:07:23 Wazuh-SIEM sshd[8983]: Failed password for admin_db from 45.33.32.156 port 6612 ssh2
+
+** Alert 1782853647.45128: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 31080
+User: deploy
+Jun 30 21:07:26 Wazuh-SIEM sshd[8999]: Failed password for deploy from 45.33.32.156 port 31080 ssh2
+
+** Alert 1782853647.45599: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:27 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 32308
+User: admin_db
+Jun 30 21:07:27 Wazuh-SIEM sshd[9001]: Failed password for admin_db from 45.33.32.156 port 32308 ssh2
+
+** Alert 1782853649.46074: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 26349
+User: ubuntu
+Jun 30 21:07:27 Wazuh-SIEM sshd[9003]: Failed password for ubuntu from 45.33.32.156 port 26349 ssh2
+
+** Alert 1782853649.46545: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 22680
+User: postgres
+Jun 30 21:07:29 Wazuh-SIEM sshd[9011]: Failed password for postgres from 45.33.32.156 port 22680 ssh2
+
+** Alert 1782853649.47020: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 16549
+User: deploy
+Jun 30 21:07:28 Wazuh-SIEM sshd[9009]: Failed password for deploy from 45.33.32.156 port 16549 ssh2
+
+** Alert 1782853649.47491: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 33558
+User: deploy
+Jun 30 21:07:27 Wazuh-SIEM sshd[9005]: Failed password for deploy from 45.33.32.156 port 33558 ssh2
+
+** Alert 1782853649.47962: - syslog,sshd,authentication_failed,gdpr_IV_35.7.d,gdpr_IV_32.2,gpg13_7.1,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.4,pci_dss_10.2.5,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:29 Wazuh-SIEM->journald
+Rule: 5760 (level 5) -> 'sshd: authentication failed.'
+Src IP: 45.33.32.156
+Src Port: 13338
+User: admin_db
+Jun 30 21:07:28 Wazuh-SIEM sshd[9007]: Failed password for admin_db from 45.33.32.156 port 13338 ssh2
+
+** Alert 1782853651.48437: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:07:31 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:07:29 Wazuh-SIEM sudo[8974]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782853913.48806: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:11:53 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: carlos
+Jun 30 21:11:52 Wazuh-SIEM sshd[9024]: pam_unix(sshd:session): session opened for user carlos(uid=1000) by carlos(uid=0)
+uid: 0
+
+** Alert 1782853913.49236: - syslog,sshd,authentication_success,gdpr_IV_32.2,gpg13_7.1,gpg13_7.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,pci_dss_10.2.5,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:11:53 Wazuh-SIEM->journald
+Rule: 5715 (level 3) -> 'sshd: authentication success.'
+Src IP: 192.168.1.33
+Src Port: 56910
+User: carlos
+Jun 30 21:11:52 Wazuh-SIEM sshd[9024]: Accepted password for carlos from 192.168.1.33 port 56910 ssh2
+
+** Alert 1782853915.49681: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:11:55 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: carlos
+Jun 30 21:11:53 Wazuh-SIEM sshd[9024]: pam_unix(sshd:session): session closed for user carlos
+
+** Alert 1782854069.50054: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:14:29 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:14:29 Wazuh-SIEM sudo[8961]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782854115.50423: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:15 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:15:13 Wazuh-SIEM sudo[9099]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/cp /var/ossec/logs/alerts/alerts.log ./alerts_copia.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/cp /var/ossec/logs/alerts/alerts.log ./alerts_copia.log
+
+** Alert 1782854115.51020: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:15 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:15:14 Wazuh-SIEM sudo[9099]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782854115.51389: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:15 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:15:13 Wazuh-SIEM sudo[9099]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782854131.51818: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:31 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:15:30 Wazuh-SIEM sudo[9104]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782854131.52247: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:31 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:15:30 Wazuh-SIEM sudo[9104]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/ls -lh alerts_caopia.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/ls -lh alerts_caopia.log
+
+** Alert 1782854131.52782: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:15:31 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:15:30 Wazuh-SIEM sudo[9104]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782854169.53151: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:16:07 Wazuh-SIEM sudo[9107]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782854169.53520: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:16:07 Wazuh-SIEM sudo[9107]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782854169.53949: - pam,syslog,authentication_success,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5501 (level 3) -> 'PAM: Login session opened.'
+User: root
+Jun 30 21:16:09 Wazuh-SIEM sudo[9110]: pam_unix(sudo:session): session opened for user root(uid=0) by carlos(uid=1000)
+uid: 1000
+
+** Alert 1782854169.54378: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:16:09 Wazuh-SIEM sudo[9110]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/ls -lh alerts_caopia.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/ls -lh alerts_caopia.log
+
+** Alert 1782854169.54913: - pam,syslog,pci_dss_10.2.5,gpg13_7.8,gpg13_7.9,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5502 (level 3) -> 'PAM: Login session closed.'
+User: root
+Jun 30 21:16:09 Wazuh-SIEM sudo[9110]: pam_unix(sudo:session): session closed for user root
+
+** Alert 1782854169.55282: - syslog,sudo,pci_dss_10.2.5,pci_dss_10.2.2,gpg13_7.6,gpg13_7.8,gpg13_7.13,gdpr_IV_32.2,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,nist_800_53_AC.6,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,
+2026 Jun 30 21:16:09 Wazuh-SIEM->journald
+Rule: 5402 (level 3) -> 'Successful sudo to ROOT executed.'
+User: root
+Jun 30 21:16:07 Wazuh-SIEM sudo[9107]:   carlos : TTY=pts/0 ; PWD=/home/carlos ; USER=root ; COMMAND=/usr/bin/chown carlos:carlos alerts_copia.log
+tty: pts/0
+pwd: /home/carlos
+command: /usr/bin/chown carlos:carlos alerts_copia.log
+
