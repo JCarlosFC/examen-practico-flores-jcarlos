@@ -35,7 +35,7 @@ plt.ylabel("Intentos")
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-plt.savefig(os.path.join(OUTPUT_DIR, "top_10_ips_intentos_fallidos_ssh.png"))
+plt.savefig(os.path.join(OUTPUT_DIR, "top10_ssh.png"))
 plt.close()
 
 regex = re.compile(
@@ -77,7 +77,7 @@ plt.xlabel("Hora")
 plt.ylabel("Cantidad")
 plt.grid(True)
 
-plt.savefig(os.path.join(OUTPUT_DIR, "numero_peticiones_http_por_hora.png"))
+plt.savefig(os.path.join(OUTPUT_DIR, "timeline_http.png"))
 plt.close()
 
 #Grafico 3
@@ -114,7 +114,7 @@ plt.ylabel("Hora")
 
 plt.tight_layout()
 
-plt.savefig(os.path.join(OUTPUT_DIR, "heatmap_peticiones_http_por_hora.png"))
+plt.savefig(os.path.join(OUTPUT_DIR, "heatmap_http.png"))
 plt.close()
 
 print("Gráficas generadas correctamente.")
